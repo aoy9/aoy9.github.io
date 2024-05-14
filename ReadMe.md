@@ -1,4 +1,4 @@
-# 💫 About Me:
+# About Me:
 Currently preparing for a Game Jam<br>Finals Week 🤞<br>Learning Ableton 🎹 🎶 and Solid Works 3D CAD<br>Occasional gaming on GoT 👹 or HD2 ☕
 
 
