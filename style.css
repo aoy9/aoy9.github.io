@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background: #f9f9f9;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background: #0077cc;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#resume {
+  background: white;
+  padding: 40px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#resume h2 {
+  border-bottom: 2px solid #0077cc;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+#resume h3 {
+  margin-top: 20px;
+}
+
+#resume ul {
+  margin-left: 20px;
+}
