@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eric Yang — Portfolio</title>
+
+  <!-- ✅ Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Optional custom config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            accent: '#38bdf8',  // custom light blue accent
+          },
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+          },
+        },
+      },
+    }
+  </script>
+</head>
+
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto flex justify-between items-center p-6">
+      <h1 class="text-2xl font-bold text-accent">Eric Yang</h1>
+      <nav class="space-x-6">
+        <a href="#about" class="hover:text-accent transition">About</a>
+        <a href="#projects" class="hover:text-accent transition">Projects</a>
+        <a href="#contact" class="hover:text-accent transition">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="max-w-5xl mx-auto px-6 py-24 text-center">
+    <h2 class="text-5xl font-extrabold mb-6">Building creative digital experiences.</h2>
+    <p class="text-lg text-gray-600 mb-8">I’m a developer passionate about clean design and smart systems.</p>
+    <a href="#projects"
+       class="bg-accent text-white px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition">
+       View My Work
+    </a>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-5xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-semibold mb-8 text-center">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="p-6 bg-white border rounded-xl hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">Project One</h3>
+        <p class="text-gray-600">A short description of what this project does.</p>
+      </div>
+      <div class="p-6 bg-white border rounded-xl hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">Project Two</h3>
+        <p class="text-gray-600">Another awesome project built with modern tech.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-white py-16">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-6">Get in Touch</h2>
+      <p class="text-gray-600 mb-8">Let’s collaborate! You can reach me at:</p>
+      <a href="mailto:youremail@example.com"
+         class="text-accent font-medium hover:underline">youremail@example.com</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="p-6 text-center text-sm text-gray-500">
+    © 2025 Eric Yang. All rights reserved.
+  </footer>
+
+</body>
+</html>
